@@ -46,3 +46,11 @@ doc/*.txt
 # ignore all .pdf files in the doc/ directory
 doc/**/*.pdf
 ```
+
+## addとcommitをまとめてやりたいとき
+
+追跡対象となっているファイルを自動的にステージしてからコミットを行います。
+
+```
+git commit -a
+```
